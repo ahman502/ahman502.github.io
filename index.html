@@ -1,9 +1,95 @@
-<html>
- 
-<body>
-  <h1>Hi! I am Natalia Ahmad</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<html lang="en">
+    
+    <!-- header information of the document-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- css styles for the html file--> 
+        <style> 
+            body {
+                font-family: Helvetica;
+                text-align: center;
+            }
+
+            h1 {
+                background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+                font-size: 100px;
+                font-weight: bold;
+                color: khaki;
+            }
+
+            h3 {
+                font-size: 32px;
+                font-weight: bold;
+                color: white;
+            }
+
+            h4 {
+                font-weight: bold;
+            }
+
+            .prices {
+                font-weight: bold;
+                color: blue;
+            }
+
+            #brushes h3 {
+                background-color: mediumspringgreen;
+            }
+
+            #frames h3 {
+                background-color: lightcoral;
+            }
+
+            #paint h3 {
+                background-color: lightblue;
+            }
+
+            footer {
+                background-color: navajowhite;
+                font-size: 12px;
+                color: rgb(196, 83, 83);
+                font-weight: bold;
+                padding: 10px 0px 10px 0px;
+            }
+        </style> 
+        
+        <title>Dasmoto's Arts & Crafts</title>
+    </head>
+    
+    <!-- Body of the html document-->
+    <body>
+        <h1>Dasmoto's Arts & Crafts</h1>
+
+        <!-- brushes information -->
+        <div id="brushes"> 
+            <h3>Brushes</h3>
+            <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg" 
+            alt="Image of Hacksaw Brushes">
+            <h4>Hacksaw Brushes</h4>
+            <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="prices">Starting at $3.00 / brush.</span></p>
+        </div>
+
+        <!-- frames information -->
+        <div id="frames"> 
+            <h3>Frames</h3>
+            <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/frames.jpeg"
+            alt="Image of Frames"/>
+            <h4>Art Frames (assorted)</h4>
+            <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="prices">Starting at $2.00 / frame.</span></p>
+        </div>
+
+        <!-- paint information -->
+        <div id="paint"> 
+            <h3>Paint</h3>
+            <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg" 
+            alt="Image of Paint">
+            <h4>Clean Finnish Paint</h4>
+            <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="prices">Starting at $5.00 / tube.</span></p>
+        </div>
+
+    </body>
+    <footer>Page created by: Natalia Ahmad</footer>
 </html>
